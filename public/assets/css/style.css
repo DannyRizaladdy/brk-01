@@ -1,0 +1,78 @@
+html{
+    scroll-behavior: smooth;
+  }
+  html,
+  body,
+  header,
+  #intro {
+      height: 100%;
+  }
+  
+  .c-pointer{
+      cursor: pointer;
+  }
+  .wp-parralax{
+    background: url("https://mdbootstrap.com/img/Photos/Slides/img%20(9).jpg");
+    height: 250px;
+    width: 100%;
+    border-bottom: 5px solid black;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+  .btn-rounde{
+      width: 40px;
+      height: 40px;
+      border-radius: 25px;
+      line-height: 40px;
+      text-align: center;
+  }
+  .flex-1 {
+    flex: 1;
+  }
+
+
+  .btn-trans{
+    background: transparent;
+  }
+  .list-sosmed{
+    list-style-type: none;
+  }
+  .list-sosmed li{
+    width: 25px;
+    background-color: white;
+    border-radius: 20px;
+  }
+  .text-red{
+    color: rgb(218, 18, 18);
+  }
+  .text-red:hover{
+    color: rgb(218, 18, 18);
+  }
+  .list-olshop ul{
+    list-style: none;
+  }
+  .list-olshop ul li{
+    width: 100px;
+    float: left;
+  }
+  
+  .top-nav-collapse {
+    background-color: #bb2116;
+  }
+  @media (max-width: 768px) {
+    .navbar:not(.top-nav-collapse) {
+      background-color: #bb2116;
+    }
+  }
+  @media (min-width: 800px) and (max-width: 850px) {
+    .navbar:not(.top-nav-collapse) {
+      background-color: #bb2116;
+    }
+  }
+  
